@@ -14,6 +14,7 @@ OWL soll verwendet werden, wenn die in Dokumenten enthaltenen Informationen von 
 - RDF Aussagen können mit OWL FULL Konstrukten beliebig gemischt werden
 
 **OWL DL**
+
 - DL steht 
 - Subsprache von OWL FULL
 - Kompromiss zwischen Ausdruckskraft und Entscheidbarkeit
@@ -22,3 +23,5 @@ OWL soll verwendet werden, wenn die in Dokumenten enthaltenen Informationen von 
 - Subsprache von OWL DL
 - zur Erstellung einer einfachen Klassenhirachie
 - Auswertung der Ausdrücke leichter
+
+![The-three-OWL-sublanguages](https://user-images.githubusercontent.com/92676445/198892509-a4b0dbde-0915-4e64-8f7a-0733ef3bf135.png)
