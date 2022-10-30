@@ -15,3 +15,10 @@ OWL soll verwendet werden, wenn die in Dokumenten enthaltenen Informationen von 
 
 **OWL DL**
 - DL steht 
+- Subsprache von OWL FULL
+- Kompromiss zwischen Ausdruckskraft und Entscheidbarkeit
+
+**OWL LITE**
+- Subsprache von OWL DL
+- zur Erstellung einer einfachen Klassenhirachie
+- Auswertung der Ausdrücke leichter
