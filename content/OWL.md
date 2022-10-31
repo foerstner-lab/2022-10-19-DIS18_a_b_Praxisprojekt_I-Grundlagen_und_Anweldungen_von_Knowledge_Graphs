@@ -4,24 +4,34 @@
 Ein Datenmodell, dass Wissen in Form von Konzepten darstellt und die Beziehungen dieser Konzepte.
 ![Screenshot (68)](https://user-images.githubusercontent.com/92676445/198880512-e3d4ba4b-77d1-4ede-bb96-79432297f14d.png)
 
-OWL soll verwendet werden, wenn die in Dokumenten enthaltenen Informationen von Anwendungen verarbeitet werden müssen, im Gegensatz zu Situationen, in denen der Inhalt nur Menschen präsentiert werden muss. OWL kann verwendet werden, um die Bedeutung von Begriffen in Vokabularen und die Beziehungen zwischen diesen Begriffen explizit darzustellen. Diese Darstellung von Begriffen und deren Zusammenhängen wird als Ontologie bezeichnet. OWL hat mehr Möglichkeiten zum Ausdrücken von Bedeutung und Semantik als XML, RDF und RDF-S, und daher geht OWL in seiner Fähigkeit, maschineninterpretierbare Inhalte im Web darzustellen, über diese Sprachen hinaus. OWL ist eine Überarbeitung der Webontologiesprache DAML+OILEinbeziehen von Lehren aus dem Design und der Anwendung von DAML+OIL.
+**OWL ist die Abkürzung für "Web Ontology Language" und dient ähnlich dem RDF der maschinenlesbaren Darstellung von Inhalten, ist aber gegenüber XML, RDF, RDF-S oder ähnlichen Sprachen ein größeres Vokabular und eine formale Semantik.**
 
-## DIe OWL-Sprache bietet 3 Untersprachen, um unterschiedliche Nutzergruppen gerecht zu werden
+- Standartsprache um im Semnatic Web Informationen zu repräsentieren
+- zur Beschreibung von Ontologien (Klassen und Eigenschaften (Properties), sowie die Beziehungen zwischen diesen werden beschreiben)
+
+
+## Die OWL-Sprache bietet 3 Untersprachen, um unterschiedliche Nutzergruppen gerecht zu werden
 
 **OWL FULL**
 - umfasst alle OWL Sprachkonstrukte
 - Obermenge von RDF
 - RDF Aussagen können mit OWL FULL Konstrukten beliebig gemischt werden
+- bietet weitreichende Ausdrucksfähigkeit
+- keine Garantie, dass Ergebnisse berechenbar sind 
 
 **OWL DL**
 
-- DL steht 
+- DL steht für Description Language
 - Subsprache von OWL FULL
 - Kompromiss zwischen Ausdruckskraft und Entscheidbarkeit
 
 **OWL LITE**
 - Subsprache von OWL DL
-- zur Erstellung einer einfachen Klassenhirachie
+- zur Erstellung einfacher Klassenhirachie und Einschränkungen
 - Auswertung der Ausdrücke leichter
 
 ![The-three-OWL-sublanguages](https://user-images.githubusercontent.com/92676445/198892509-a4b0dbde-0915-4e64-8f7a-0733ef3bf135.png)
+
+## Aufbau OWL Dokument
+![+Aufbau+OWL-Ontologie-Dokument](https://user-images.githubusercontent.com/92676445/198982071-ee7fa352-bb6d-4980-8f15-738eb046404a.jpg)
+
