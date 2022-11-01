@@ -170,7 +170,7 @@ BEISPIEL:
  <<strong>/Dish</strong>>
  
 - Eigenschaftswerte
-- Identitätsaussagen 
+- Identitätsaussagen (owl:sameAs; owl:differentFrom; owl:Alldifferent)
 
 <Dish rdf:ID=„Meatdish"></br>
 <<strong>owl:differentFrom</strong> rdf:resource="#TacoConPollo“/></br>
