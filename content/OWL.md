@@ -162,27 +162,30 @@ BEISPIEL:
 - Neben den Klassen und Eigenschaftsaxiomen gibt es noch individuelle Axiome
 
 <strong>3 Arten von Fakten</strong>
-1. Klassenzugehörigkeit
+- Klassenzugehörigkeit
 
-BEISPIEL: </br>
-<**Dish** rdf:ID=„TacoConPollo"> 
-<consistsOf rdf:resource="#Taco"/>
-<prize rdf:resource="#1,50€"/>
-…
-…
-<**/Dish**></br>
+<<strong>Dish</strong> rdf:ID=,,TacoConPollo''></br>
+    <consistOf rdf:resource=''#Taco/></br>
+    <prize rdf:resource=''#1,50€''/></br>
+ <<strong>/Dish</strong>>
+ 
+- Eigenschaftswerte
+- Identitätsaussagen 
 
-2. Eigenschaftswerte
-3. Identitätsaussagen
+<Dish rdf:ID=„Meatdish"></br>
+<<strong>owl:differentFrom</strong> rdf:resource="#TacoConPollo“/></br>
+<<strong>owl:differentFrom</strong> rdf:resource="#TacoConPorcino"/>
+</dish>
 
-BEISPIEL: </br>
-<Dish rdf:ID=„Meatdish"></br>                       
-<owl:differentFrom rdf:resource="#TacoConPollo“/></br>
-<owl:differentFrom rdf:resource="#TacoConPorcino"/></br>
-</Dish>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<strong>Welche Schlussfolgerung lässt sich aus diesem Statement für Südfrüchte ziehen?</strong>
 
+<owl:Class rdf:ID=,,Südfrüchte''></br>
+<rdfs:subClassOf rdf:resource=,,Früchte''></br>
+</owl:Class>
 
-
-  
-  
-  
+Antwort 1: Südfrüchte ist die Eigenschaft von Früchte.</br>
+Antwort 2: Früchte ist die Eigenschaft für Südfrüchte.</br>
+Antwort 3: Südfrüchte wird von OWL als Früchte übersetzt.</br>
+Antwort 4: Südfrüchte bildet die Unterklasse von Früchte.</br>
+Antwort 5: Südfrüchte ist eine DatatypeProperty.</br>
