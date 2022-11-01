@@ -161,19 +161,19 @@ BEISPIEL:
 ## Fakten
 - Neben den Klassen und Eigenschaftsaxiomen gibt es noch individuelle Axiome
 
-<strong>3 Arten</strong>
-- Klassenzugehörigkeit
+<strong>3 Arten von Fakten</strong>
+1. Klassenzugehörigkeit
 
-bsp:</br>
-<**Dish** rdf:ID=„TacoConPollo"></br>
-<consistsOf rdf:resource="#Taco"/></br>
-<prize rdf:resource="#1,50€"/></br>
-…</br>
-…</br>
+BEISPIEL: </br>
+<**Dish** rdf:ID=„TacoConPollo"> 
+<consistsOf rdf:resource="#Taco"/>
+<prize rdf:resource="#1,50€"/>
+…
+…
 <**/Dish**></br>
 
-- Eigenschaftswerte
-- Identitätsaussagen
+2. Eigenschaftswerte
+3. Identitätsaussagen
 
 BEISPIEL: </br>
 <Dish rdf:ID=„Meatdish"></br>                       
