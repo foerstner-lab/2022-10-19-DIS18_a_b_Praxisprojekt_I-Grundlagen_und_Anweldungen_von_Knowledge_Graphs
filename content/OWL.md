@@ -35,3 +35,17 @@ Ein Datenmodell, dass Wissen in Form von Konzepten darstellt und die Beziehungen
 ## Aufbau OWL Dokument
 ![+Aufbau+OWL-Ontologie-Dokument](https://user-images.githubusercontent.com/92676445/198982071-ee7fa352-bb6d-4980-8f15-738eb046404a.jpg)
 
+- Aussagen mit Klassen und Eigenschaften
+- Klassen: Menge von Individuen, die bestimmte Eigenschaften teilen
+- Eigenschaften: Beziehung zwischen Idividuen und Individuen oder Klassen
+- Es gibt keine festgelegte Reihenfolge der Aussagen
+
+**Klassen**
+
+...werden definiert durch Namensgebung und Spezifizierung
+
+<em>owl:class</em>  (Subklasse von rdf:class)             -------->         <em><owl:class rdf:ID=,,dishes´´/></em>
+
+Es gibt zwei vordefinierte Klassen
+- <em>owl:Thing</em> <strong>Oberklasse aller Klassen</strong>
+- <em>owl:Nothing</em> <strong>Unterklasse aller Klassen</strong>
