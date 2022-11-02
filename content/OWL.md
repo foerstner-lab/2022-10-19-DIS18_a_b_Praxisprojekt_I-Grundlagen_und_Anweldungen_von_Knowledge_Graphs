@@ -1,5 +1,5 @@
 # WEB ONTOLOGY LANGUAGE (OWL)
-
+<br></br>
 ## Ontologie
 Ein Datenmodell, dass Wissen in Form von Konzepten darstellt und die Beziehungen dieser Konzepte.
 ![Screenshot (68)](https://user-images.githubusercontent.com/92676445/198880512-e3d4ba4b-77d1-4ede-bb96-79432297f14d.png)
@@ -38,7 +38,7 @@ OWL DL(Beschreibungslogik) sagt z.B. dass eine Klasse nicht Instanz einer andere
 OWL FULL ist ähnlich zu OWL DL, verzichtet aber auf die Einschränkungen. Dadurch sind die Ontologien unentscheidbar.
 
 ![The-three-OWL-sublanguages](https://user-images.githubusercontent.com/92676445/198892509-a4b0dbde-0915-4e64-8f7a-0733ef3bf135.png)
-
+<br></br>
 ## Aufbau OWL Dokument
 ![+Aufbau+OWL-Ontologie-Dokument](https://user-images.githubusercontent.com/92676445/198982071-ee7fa352-bb6d-4980-8f15-738eb046404a.jpg)
 
@@ -130,7 +130,7 @@ Es gibt zwei vordefinierte Klassen
 <owl:Class rdf:about="#Meatdish"></br>
 <**owl:disjointWith** rdf:resource="#VegeterianDish"/></br>
 </owl:Class>
-
+<br></br>
 ## Eigenschaften
 
 - Eigenschaften (Properties) erlauben es Aussagen über Klassen und ihre Mitglieder und über Individuen zu machen
@@ -164,7 +164,7 @@ BEISPIEL:
 - Linkseindeutigkeit/Injektivität</br>
 <owl:InverseFunctionalProperty>
 
-
+<br></br>
 ## Fakten
 - Neben den Klassen und Eigenschaftsaxiomen gibt es noch individuelle Axiome
 
