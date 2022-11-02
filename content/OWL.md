@@ -12,12 +12,12 @@ Ein Datenmodell, dass Wissen in Form von Konzepten darstellt und die Beziehungen
 
 ## Die OWL-Sprache bietet 3 Untersprachen, um unterschiedliche Nutzergruppen gerecht zu werden
 
-**OWL FULL**
-- umfasst alle OWL Sprachkonstrukte
-- Obermenge von RDF
-- RDF Aussagen können mit OWL FULL Konstrukten beliebig gemischt werden
-- bietet weitreichende Ausdrucksfähigkeit
-- keine Garantie, dass Ergebnisse berechenbar sind 
+**OWL LITE**
+- Subsprache von OWL DL
+- zur Erstellung einfacher Klassenhirachie und Einschränkungen
+- Auswertung der Ausdrücke leichter
+
+OWL LITE dient zum Erschaffen einfacher Taxomien d.h., dass Objekte Klassen zugeordnet werden.
 
 **OWL DL**
 
@@ -25,10 +25,17 @@ Ein Datenmodell, dass Wissen in Form von Konzepten darstellt und die Beziehungen
 - Subsprache von OWL FULL
 - Kompromiss zwischen Ausdruckskraft und Entscheidbarkeit
 
-**OWL LITE**
-- Subsprache von OWL DL
-- zur Erstellung einfacher Klassenhirachie und Einschränkungen
-- Auswertung der Ausdrücke leichter
+OWL DL(Beschreibungslogik) sagt z.B. dass eine Klasse nicht Instanz einer anderen Klasse sein darf.
+
+
+**OWL FULL**
+- umfasst alle OWL Sprachkonstrukte
+- Obermenge von RDF
+- RDF Aussagen können mit OWL FULL Konstrukten beliebig gemischt werden
+- bietet weitreichende Ausdrucksfähigkeit
+- keine Garantie, dass Ergebnisse berechenbar sind 
+
+OWL FULL ist ähnlich zu OWL DL, verzichtet aber auf die Einschränkungen. Dadurch sind die Ontologien unentscheidbar.
 
 ![The-three-OWL-sublanguages](https://user-images.githubusercontent.com/92676445/198892509-a4b0dbde-0915-4e64-8f7a-0733ef3bf135.png)
 
