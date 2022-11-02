@@ -189,3 +189,21 @@ Antwort 2: Früchte ist die Eigenschaft für Südfrüchte.</br>
 Antwort 3: Südfrüchte wird von OWL als Früchte übersetzt.</br>
 Antwort 4: Südfrüchte bildet die Unterklasse von Früchte.</br>
 Antwort 5: Südfrüchte ist eine DatatypeProperty.</br>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+<strong>Was ist ein Triple?</strong>
+
+Antwort 1: Zwei Individuen, die eine Beziehung zueinander haben.
+Antwort 2: Die Oberklasse gibt vor welche Beziehung die Unterklasse zu ihm hat.
+Antwort 3: Als Triple wird OWL FULL verstanden.
+Antwort 4: Alle Properties werden als Triple verstanden.
+Antwort 5: Triples sind Klassen.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+<strong>Wie viele Untersprachen bietet OWL?</strong
+    
+Antwort 1: 5.
+Antwort 2: 7.
+Antwort 3: 3.
+Antwort 4: 2.
+Antwort 5: Es gibt nur eine OWL Sprache.
