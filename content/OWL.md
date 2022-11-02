@@ -174,8 +174,8 @@ BEISPIEL:
 
 <Dish rdf:ID=„Meatdish"></br>
 <<strong>owl:differentFrom</strong> rdf:resource="#TacoConPollo“/></br>
-<<strong>owl:differentFrom</strong> rdf:resource="#TacoConPorcino"/>
-</dish>
+<<strong>owl:differentFrom</strong> rdf:resource="#TacoConPorcino"/></br>
+<<strong>/dish</strong>>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 <strong>Welche Schlussfolgerung lässt sich aus diesem Statement für Südfrüchte ziehen?</strong>
