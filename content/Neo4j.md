@@ -36,6 +36,10 @@
 <ol>- Labels: Gruppieren Knoten und beschleunigen sie</ol>
 <br></br>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92687630/200588645-00fd13a9-2b7b-43a4-b901-b09ed5e3ad12.png" alt="Aufbau" width="800"/>
+</p>
+
 ## Abfragesprache
 - Cypher als deklarative Abfragesprache
 - Syntax bestehend aus „ASCII-Art“
@@ -44,7 +48,7 @@
 - Knoten und Kanten können eine Bezeichnung haben
 - Labels können verwendet werden, um die Treffermenge bei der Suche einzuschränken
 - Knoten können beliebig viele Labels und Properties haben, Kanten nur ein Label und beliebig viele Properties
-- 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92687630/200586921-2a0b16d4-f871-4866-a684-09c7a249c70f.png" alt="CQL" width="800"/>
 </p>
@@ -59,6 +63,22 @@
 | Leistung, unabhängig von der Anzahl und Tiefe der Verbindungen | Verarbeitungsgeschwindigkeit nimmt mit zunehmenden Dateneingaben ab|
 | Cypher-Sprache |SQL-Sprache  |
 <br></br>
+
+## Beispiel
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92687630/200589729-cedd9864-8501-4444-a5f0-126897012a01.png" alt="" width="300"/>
+</p>
+<br></br>
+
+<center>
+|Neo4j|RBDM|
+|:-----------:|:----------:|
+|<img src="https://user-images.githubusercontent.com/92687630/200590756-1b030130-6c6f-45fc-a462-46a6bb2e9b32.png" alt="" width="300"/>|<img src="https://user-images.githubusercontent.com/92687630/200591004-79ff55cc-71c2-4b2c-857c-d65537afcb34.png" alt="" width="300"/>|
+</center>
+
+
+
+
 
 ## Vor- und Nachteile
 |Vorteile|Nachteile|
@@ -94,7 +114,7 @@
 **Welches davon ist kein CQL-Befehl?**
 <ol>
   <li>Match</li>
-  <li>Crealte</li>
+  <li>Create</li>
   <li>Delete</li>
   <li>Exit</li>
   <li>Set</li>
