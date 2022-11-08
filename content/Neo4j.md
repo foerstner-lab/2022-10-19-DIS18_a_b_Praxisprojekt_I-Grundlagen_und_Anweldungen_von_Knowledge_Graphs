@@ -65,16 +65,14 @@
 <br></br>
 
 ## Beispiel
-<p align="center">
 <img src="https://user-images.githubusercontent.com/92687630/200589729-cedd9864-8501-4444-a5f0-126897012a01.png" alt="" width="300"/>
-</p>
 <br></br>
 
-<center>
+
 |Neo4j|RBDM|
 |:-----------:|:----------:|
 |<img src="https://user-images.githubusercontent.com/92687630/200590756-1b030130-6c6f-45fc-a462-46a6bb2e9b32.png" alt="" width="300"/>|<img src="https://user-images.githubusercontent.com/92687630/200591004-79ff55cc-71c2-4b2c-857c-d65537afcb34.png" alt="" width="300"/>|
-</center>
+
 
 
 
