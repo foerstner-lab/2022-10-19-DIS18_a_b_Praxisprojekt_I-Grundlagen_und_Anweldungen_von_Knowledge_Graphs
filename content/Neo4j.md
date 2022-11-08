@@ -63,4 +63,34 @@
 |Echtzeitausführung||
 |komplizierte Datenaufrufe in Graph-Traversals ersetzt||
 |whiteboard-friendly||
+-------------------------------
+<br></br>
+## Quiz
+**Neo4j ist eine...**
+<ol>
+  <li>Relationale Datenbanken</li>
+  <li>Graphdatenbank</li>
+  <li>Objektorientierte Datenbank</li>
+  <li>Hierarchische Datenbank</li>
+  <li>Abfragesprache</li>
+</ol>
+<br></br>
 
+**Inwiefern ist Neo4j eine noSQL-Datenbank?**
+<ol>
+  <li>Es wird ein relationaler Ansatz verfolgt</li>
+  <li>Daten können ohne vorausdefiniertes Schema gespeichert werden</li>
+  <li>Es wird kein SQL genutzt um auf Daten zuzugreifen</li>
+  <li>Sie ermöglicht die Speicherung und den Zugriff auf miteinander verbundene Datenpunkte</li>
+  <li>Daten müssen in eine  normalisierte Form gebracht werden um komplexe Datenobjekte zu zerlegen</li>
+</ol>
+<br></br>
+
+**Welches davon ist kein CQL-Befehl?**
+<ol>
+  <li>Match</li>
+  <li>Crealte</li>
+  <li>Delete</li>
+  <li>Exit</li>
+  <li>Set</li>
+</ol>
