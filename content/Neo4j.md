@@ -44,6 +44,11 @@
 - Knoten und Kanten können eine Bezeichnung haben
 - Labels können verwendet werden, um die Treffermenge bei der Suche einzuschränken
 - Knoten können beliebig viele Labels und Properties haben, Kanten nur ein Label und beliebig viele Properties
+- 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92687630/200586921-2a0b16d4-f871-4866-a684-09c7a249c70f.png" alt="CQL" width="800"/>
+</p>
+  
 <br></br>
 
 ## Neo4j vs RBDM
