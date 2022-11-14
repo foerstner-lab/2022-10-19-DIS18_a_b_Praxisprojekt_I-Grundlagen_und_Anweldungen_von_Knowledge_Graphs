@@ -37,7 +37,7 @@
 <br></br>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92687630/200588645-00fd13a9-2b7b-43a4-b901-b09ed5e3ad12.png" alt="Aufbau" width="800"/>
+<img src="https://user-images.githubusercontent.com/92687630/201656067-372f7e32-67d9-49b7-8926-c665003febca.png" alt="Aufbau" width="800"/>
 </p>
 
 ## Abfragesprache
