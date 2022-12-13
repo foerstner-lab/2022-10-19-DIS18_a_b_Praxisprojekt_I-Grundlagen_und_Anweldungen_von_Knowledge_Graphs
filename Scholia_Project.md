@@ -5,12 +5,14 @@ Wir visualisieren die verschiedenen Krankheiten, welche auf https://scholia.tool
 Das ideale Ergebnis ist eine vollständige Visualisierung aller Krankheiten, die auf Scholia zu finden sind. Die Visualisierung soll dabei sehr aufschlussreich sein und sehr viele Informationen beinhalten, ohne die Übersichtlichkeit zu verringern. Im Idealfall ist die Visualisierung so gut, dass sie bei Scholia integriert werden kann.
 
 ### Beispiel: 
+![Example](https://github.com/kaiserog/2022-10-19-DIS18_a_b_Praxisprojekt_I-Grundlagen_und_Anweldungen_von_Knowledge_Graphs/blob/main/content/images/circos-naming-names-nyt.png)
 (Quelle: http://circos.ca/intro/general_data/)
 Z.b. Politiker durch Krankheiten ersetzen, Verbindungen sind die “related diseases”, Blöcke sind die Anzahl an Paper, die Dicke der Blöcke ist wie oft die Paper zitiert wurden.
 
 Das minimale Projektziel ist die Visualisierung einzelner Krankheiten. Die Informationsdichte schränkt dabei die Übersichtlichkeit ein. Daher kann sie auch nicht bei Scholia integriert werden. 
 
-Die grobe Zeitplanung liegt bei 12 Stunden in periodischem Wechsel von biwöchentlichen Zyklen. 
+Die grobe Zeitplanung liegt bei 12 Stunden in periodischem Wechsel von biwöchentlichen Zyklen.
+![Timetable](https://github.com/kaiserog/2022-10-19-DIS18_a_b_Praxisprojekt_I-Grundlagen_und_Anweldungen_von_Knowledge_Graphs/blob/main/content/images/image2.png)
 
 ## Research:
 - Welche Visualisierungstools nutzen wir?
